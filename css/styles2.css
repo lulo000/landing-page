@@ -84,3 +84,29 @@ body{
     width: 100% ;
    
 }
+.contendorFlexbox{
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+}
+
+.tarjeta{
+    flex-basis: 100%;
+    background-color: rgb(223, 231, 231);
+    color: rgb(7, 7, 7);
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 10px 0 rgb(172, 154, 236);
+}
+
+.tarjetaTitulo{
+    font-size: 2em;
+   font-weight: bold;
+}
+.tarjetaContenido{
+    font-size: 1em;
+    background-color: white;
+    color-scheme: black;
+    padding: 2em;
+    border-radius: 1em;
+}
