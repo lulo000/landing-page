@@ -5,11 +5,11 @@
     
 }  
 body{
-    background-color:rgb(210, 247, 205);
+    background-color:rgb(252, 252, 235);
     font-family: 'Arial', sans-serif;
   
     min-height: 100vh;
-     width: 100vw; /*usar estas unidades unicamente en el body */
+     width: 98,5vw; /*usar estas unidades unicamente en el body */
      display: flex;
     
 }
@@ -18,14 +18,14 @@ body{
  } */
  main{
    
-    width: 60%;
+    width: 70%;
     /* background-color: rgb(53, 34, 34); */
  }
  aside{
     /* background-color:  rgb(163, 223, 183); */
     width: 40%;
     height: auto;
-    background-color: rgb(172, 154, 236);
+    background-color: rgb(225, 192, 212);
     
  }
 
@@ -47,14 +47,19 @@ body{
         text-align: center;
     }
  }
-
+.titu{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 20px;
+}
  .datospersonales{
-    padding: 2em;
+    padding: 1em;
        
     
     /* background-color: blue; */
    .listaDP{
-    margin-top: 1em;
+    margin-top: 0.4em;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -64,24 +69,48 @@ body{
    }
  }
 .redes{
-    padding: 2em;
+    padding: 1em;
    
-    width: 100% ;
    
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    .listaDP{
+        margin-top: 0.4em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        Li{
+            list-style: none;
+        }
+       }
 }
 
 .educacion{
-    padding: 2em;
-    height: 193px;
-    width: 100% ;
+    padding: 1em;
    
+    .listaDP{
+        margin-top: 0.4em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        Li{
+            list-style: none;
+        }
+       }
 }
 .aptitudes{
-    padding: 2em;
-    height: 193px;
+    padding: 1em;
+    height:auto;
     width: 100% ;
+    .listaDP{
+        margin-top: 0.4em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        Li{
+            list-style: none;
+        }
+       }
    
 }
 .contendorFlexbox{
@@ -91,12 +120,15 @@ body{
 }
 
 .tarjeta{
-    flex-basis: 100%;
-    background-color: rgb(223, 231, 231);
+    margin: 10px;
+    height: auto;
+   width: 100%;
+    flex-basis: 90%; 
+    background-color: rgb(213, 213, 213);
     color: rgb(7, 7, 7);
     border-radius: 1em;
     padding: 1em;
-    box-shadow: 0 0 10px 0 rgb(172, 154, 236);
+    box-shadow: 0 0 20px 0 rgb(202, 170, 189);
 }
 
 .tarjetaTitulo{
@@ -104,6 +136,7 @@ body{
    font-weight: bold;
 }
 .tarjetaContenido{
+    margin: 1%;
     font-size: 1em;
     background-color: white;
     color-scheme: black;
