@@ -1,0 +1,120 @@
+/* normalizar navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que el padding y el border no se sumen al width*/
+    text-decoration: none;
+}
+
+body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .tarjeta {
+      width: 350px;
+      height: 550px;
+      background-color: #f7f5f5;
+      /* border-radius: 15px; */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 0px;
+      /* display: flex;
+      justify-content: center; */
+      /* align-items: center;
+      transition: transform 0.3s ease; */
+      flex-direction: column
+    }
+img{
+    width: 350px;
+    height: 200px;
+  max-width: 100%;
+   margin-bottom: 0px;
+  
+}
+.search-bar {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar .icon {
+  background-color: #00cc99;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  height: 50px;
+  width: 350px;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #515050;
+}
+
+.catimg {
+  width: 30px;
+height: 100px;
+  margin-bottom: 5px;;
+}
+.offers {
+  margin: 20px;
+  color: #515050;
+}
+
+.card {
+    display: flex;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 400px;
+  margin: 15px;
+}
+
+.card img {
+    justify-content: left;
+  width: 50%;
+  height: 160px;
+  
+}
+
+.card-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-top: 30px;
+  color: #515050;
+
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
