@@ -140,3 +140,43 @@ font-size: medium;
     width: 60px;
     text-align: center;   
 }
+.platosorder{
+    margin-top: 30px;
+    display: flex;
+    /* background-color: #95517c; */
+width: 100%;
+justify-content: space-between;
+box-shadow: #95517c;
+}
+.platos{
+justify-content: left;
+font-size: larger;
+}
+.precio{
+justify-content: right;
+}
+.cuenta{
+     margin-top: 30px;
+    display: flex;
+    /* background-color: #95517c; */
+width: 100%;
+justify-content: space-between;
+color: #95517c;
+}
+.items{
+    justify-content: left;
+font-size: larger;
+}
+.botonOrder{
+    width: 200px;
+    height: 30px;
+    background-color: #d8629d;
+    border-radius: 10px;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+    /* padding: 2px;
+   margin: 40px; */
+   margin-top: 20px;
+   margin-left: 60px;
+}
